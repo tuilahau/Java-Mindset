@@ -10,7 +10,7 @@ public class XuLy {
 		System.out.print("Nhập vào số USD muốn đổi sang VND: ");
 		float amoutUSD  = Float.parseFloat(sc.nextLine());
 		  
-		float  amoutVND = VND_PER_USD * amoutUSD;
+		float amoutVND = VND_PER_USD * amoutUSD;
 		
 		System.out.println(amoutVND);
 	}

@@ -24,8 +24,7 @@ public class XuLy {
 		int total = tenMilion + milion + hundred + ten + unit;
 		
 		double totalAVG = (double) total / NUMBER_COUNT;
-		
-		System.out.println(total);
+	
 		System.out.println("Kết tính trung bình cộng 5 số: " + totalAVG);
 		
 		
@@ -33,7 +32,8 @@ public class XuLy {
 		System.out.println(milion);
 		System.out.println(hundred);
 		System.out.println(ten);
-		System.out.println(unit);
+		System.out.println(unit);	
+		System.out.println(total);
 		
 
 	}
