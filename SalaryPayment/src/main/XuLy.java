@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class XuLy {
 
 	public static void main(String[] args) {
-		final int STARDARD_HOUR = 40;
+		final int STANDARD_HOUR = 40;
 		final float RATE_OT = 1.5f;
 		float hours, rate, salary;
 		
@@ -17,8 +17,8 @@ public class XuLy {
 		 rate = Float.parseFloat(sc.nextLine());
 		
 		
-		if(hours > STARDARD_HOUR) {
-			salary = STARDARD_HOUR * rate + (hours - 40) * rate * RATE_OT;
+		if(hours > STANDARD_HOUR) {
+			salary = STANDARD_HOUR * rate + (hours - 40) * rate * RATE_OT;
 		}else {
 			salary = hours * rate;
 		}
