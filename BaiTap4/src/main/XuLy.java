@@ -9,7 +9,7 @@ public class XuLy {
 		
 		System.out.print("The input court length: ");
 		float courtLength = Float.parseFloat(sc.nextLine());
-		System.out.print("The input tree length: ");
+		System.out.print("The input tree radius: ");
 		float treeRadius = Float.parseFloat(sc.nextLine());
 		System.out.print("The input tree spacing: ");
 		float treeSpacing = Float.parseFloat(sc.nextLine());
