@@ -23,7 +23,7 @@ class CreditCardI {
 			latePaymentFee = remainingBlace * INTEREST;
 		}
 			
-		System.out.println("The price late payment free: " + latePaymentFee);
+		System.out.println("The price late payment fee: " + latePaymentFee);
 	}
 
 }
